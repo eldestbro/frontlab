@@ -1,0 +1,346 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:focus {
+  outline-style: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: transparent;
+}
+
+*::-moz-selection {
+  background: #1ec0ff;
+  color: #fff;
+}
+
+*::selection {
+  background: #1ec0ff;
+  color: #fff;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Eoe_Zno_L", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+label {
+  cursor: pointer;
+}
+
+code {
+  display: block;
+}
+
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+blockquote,
+big,
+body,
+center,
+canvas,
+caption,
+cite,
+code,
+command,
+datalist,
+dd,
+del,
+details,
+dfn,
+dl,
+div,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+keygen,
+label,
+legend,
+li,
+meter,
+nav,
+menu,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+s,
+samp,
+section,
+small,
+span,
+source,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+tfoot,
+thead,
+th,
+tr,
+td,
+video,
+tt,
+u,
+ul,
+var {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+table,
+input,
+button,
+select,
+textarea {
+  font-size: 14px;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Eoe_Zno_L", sans-serif;
+  color: #03121e;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+em,
+cite,
+address,
+optgroup {
+  font-style: normal;
+}
+
+kbd,
+samp,
+code {
+  font-family: monospace;
+}
+
+img,
+input,
+button,
+select,
+textarea {
+  vertical-align: middle;
+}
+
+img {
+  -ms-interpolation-mode: bicubic !important;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+fieldset {
+  border: 0;
+}
+
+abbr,
+acronym {
+  border-bottom: 1px dotted --black;
+  cursor: help;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+legend {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+legend,
+caption {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+hr {
+  margin: 0;
+  border: 0;
+  height: 8px;
+  background-color: var(--bg);
+}
+
+article,
+aside,
+audio,
+canvas,
+command,
+datalist,
+details,
+embed,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+keygen,
+meter,
+nav,
+output,
+progress,
+section,
+source,
+video {
+  display: block;
+}
+
+mark,
+rp,
+rt,
+ruby,
+summary,
+time {
+  display: inline;
+}
+
+@font-face {
+  font-family: "Eoe_Zno_L";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_Zno_L.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.frontlab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+.frontlab h1 {
+  padding: 0 0 1em 0;
+  font-size: 5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.frontlab__intro {
+  font-size: 1.5em;
+  line-height: 1.3;
+  letter-spacing: 0px;
+  font-style: normal;
+  text-transform: none;
+  color: #000;
+  letter-spacing: -1px;
+}
+
+.frontlab__intro-technology {
+  padding: 1.5em 0;
+  font-size: 2em;
+}
+
+.frontlab__contact {
+  font-size: 1.5em;
+}
+
+.frontlab__contact i {
+  font-size: 1em;
+}
